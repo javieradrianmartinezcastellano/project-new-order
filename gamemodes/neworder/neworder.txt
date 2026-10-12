@@ -1,0 +1,8 @@
+"neworder"
+{
+	"base"			"helix"
+	"title"			"Project: New Order"
+	"author"		"Project: New Order"
+	"menusystem"	"1"
+	"settings"		{}
+}

@@ -1,0 +1,4 @@
+# Instalación local del servidor (SteamCMD, Garry's Mod, Helix, CSS)
+srv/
+.env
+*.log
