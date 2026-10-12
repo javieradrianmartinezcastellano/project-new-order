@@ -40,7 +40,16 @@ server/
   cfg/server.cfg             Configuración del servidor
 ```
 
-## Instalación (Linux)
+## Probar en tu PC (Windows)
+
+1. Descarga el repositorio (`git clone` o *Code → Download ZIP*).
+2. Doble clic en `server\windows\instalar.bat`. Busca Garry's Mod, descarga Helix y copia el
+   schema a `garrysmod\gamemodes\neworder`. Si tienes el juego en otra ruta:
+   `instalar.bat "D:\SteamLibrary\steamapps\common\GarrysMod"`.
+3. Cierra Garry's Mod del todo y ábrelo. Elige **Project: New Order** abajo a la derecha e
+   inicia una partida con 2 jugadores o más.
+
+## Instalación del servidor dedicado (Linux)
 
 1. Instala `steamcmd` y `git`.
 2. `cp .env.example .env` y rellena al menos `GSLT` y `RCON_PASSWORD`.
